@@ -18,7 +18,7 @@ app.use(function (req, res, done) {
 	logger.debug(index);
 	done();
 });
-
+//just wanna test
 app
 	.use('/', express.static(PUBLIC_DIR))
 	.use(errorHandler());
